@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Project - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="card">
+            <h2>Anitha Chappidi</h2>
+            <img src="C:\Users\Admin\OneDrive\Documents\sanju\html basics" alt="My Photo">
+            <p>Hello! I’m Anitha, pursuing B.Tech in ELR at Sir CRR College of Engineering. 
+               I’m passionate about technology and enjoy learning coding and problem-solving.</p>
+        </section>
+
+        <section id="skills" class="card">
+            <h2>My Skills</h2>
+            <ul>
+                <li>Python (Basics)</li>
+                <li>HTML & CSS</li>
+                <li>Java (Basics)</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch with me!</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+
+                <p><strong>Gender:</strong></p>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+
+                <p><strong>Interest:</strong></p>
+                <label><input type="radio" name="interest" value="coding"> Coding</label>
+                <label><input type="radio" name="interest" value="reading"> Reading</label>
+
+                <label for="bio">Bio</label>
+                <textarea id="bio" name="bio" maxlength="200" placeholder="Tell me about yourself (max 200 chars)"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Anitha Chappidi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
